@@ -24,7 +24,6 @@ public class Interval {
 
         if (number >= 0 && number <= 14) {
             result1 = "Число в диапазоне [0 - 14]";
-
         } else if (number >= 15 && number <= 35) {
             result1 = "Число в диапазоне [15 - 35]";
         } else if (number >= 36 && number < 50) {
@@ -34,9 +33,7 @@ public class Interval {
         } else {
             result1 = "Число не входит в нужный диапазон.";
         }
-
         System.out.println(result1);
-
     }
 
 }
