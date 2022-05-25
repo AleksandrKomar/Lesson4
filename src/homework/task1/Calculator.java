@@ -18,7 +18,6 @@ public class Calculator {
         String sign = scanner.next();
 
         calculate(operand1, operand2, sign);
-
     }
 
     static void calculate(double a, double b, String sign) {
